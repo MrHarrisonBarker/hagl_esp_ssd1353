@@ -1,5 +1,6 @@
 idf_component_register(
-    SRCS "src/hagl_hal_single.c" "src/hagl_hal_double.c" "src/hagl_hal_triple.c" "src/solomon_display.c"
+    SRCS "src/hagl_hal.c" "src/ssd1353.c"
     INCLUDE_DIRS "./include"
     REQUIRES hagl
+    PRIV_REQUIRES driver esp_lcd
 )
