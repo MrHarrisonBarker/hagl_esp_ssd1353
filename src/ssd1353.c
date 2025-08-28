@@ -515,7 +515,7 @@ esp_err_t panel_ssd1353_disp_on_off( esp_lcd_panel_t* panel, bool on_off )
 // 	//
 // 	// ssd1353_display_set_address( *spi, 0, 0, 160, 128 );
 // 	//
-// 	// for ( uint8_t i = 0; i < CONFIG_SOLOMON_DISPLAY_HEIGHT; i++ )
+// 	// for ( uint8_t i = 0; i < SSD1353_HEIGHT; i++ )
 // 	// {
 // 	// 	// ESP_ERROR_CHECK(panel_ssd1353_draw_bitmap(panel, 0, i, 160, i + 1, blank));
 // 	//

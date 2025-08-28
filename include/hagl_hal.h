@@ -12,10 +12,6 @@ extern "C" {
 
 void hagl_hal_init( hagl_backend_t* backend );
 
-#define DISPLAY_WIDTH       (CONFIG_SOLOMON_DISPLAY_WIDTH)
-#define DISPLAY_HEIGHT      (CONFIG_SOLOMON_DISPLAY_HEIGHT)
-#define DISPLAY_DEPTH       (CONFIG_SOLOMON_DISPLAY_DEPTH)
-
 #ifdef __cplusplus
 }
 #endif
